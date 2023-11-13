@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress
+  labels:
+    name: ingress
+spec:
+  tls:
+    - secretName: frontend-crt
+      hosts:
+        - minikube.frontend
+  rules:
+  - host: minikube.frontend
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: frontend
+            port: 
+              number: 3000
