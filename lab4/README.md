@@ -4,7 +4,7 @@ Course: [Introduction to distributed technologies](https://github.com/itmo-ict-f
 Year: 2023/2024 \
 Group: K4111с \
 Author: Zaglubotskii Artem Valerevich \
-Lab: Lab1 \
+Lab: Lab4 \
 Date of create: 29.11.2023 \
 Date of finished: <none>
 
